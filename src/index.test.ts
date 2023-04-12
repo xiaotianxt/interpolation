@@ -1,5 +1,8 @@
-describe('unit | isNumberParseable', () => {
-  it('returns `true` for values parseable number', () => {});
-
-  it('returns `false` for values non parseable to number', () => {});
+describe('unit | gridGeneration', () => {
+  it('should generate identical grid', () => {
+    // TODO
+  });
+  it('shoule generate a slope grid', () => {
+    // TODO
+  });
 });
