@@ -65,11 +65,14 @@ export type InterpolationMode = 'inverse-distance' | 'azimuth-weighted';
 /**
  * 基于数据点，生成格网模型
  */
-export type gridGeneration = (
+export function generateGrid(
   points: Point[],
-  option: Exclude<GridMap, 'grid'>,
+  option: Omit<GridMap, 'grid'>,
   mode: InterpolationMode,
-) => GridMap;
+): GridMap {
+  console.log(points, option, mode);
+  return { ...option, grid: [] };
+}
 
 /**
  * 基于数据点，生成凸包的 TIN 模型
