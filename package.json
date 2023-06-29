@@ -63,5 +63,8 @@
   "bugs": {
     "url": "https://github.com/[repositoryOwner]/[repositoryName]/issues"
   },
-  "homepage": "https://github.com/[repositoryOwner]/[repositoryName]#readme"
+  "homepage": "https://github.com/[repositoryOwner]/[repositoryName]#readme",
+  "dependencies": {
+    "@turf/turf": "^6.5.0"
+  }
 }
